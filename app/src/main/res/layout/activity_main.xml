@@ -6,10 +6,9 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <fragment
-        android:id="@+id/map"
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:name="com.naver.maps.map.MapFragment" />
-
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager" />
 </androidx.constraintlayout.widget.ConstraintLayout>
