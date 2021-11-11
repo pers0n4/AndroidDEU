@@ -31,6 +31,10 @@
         <activity
             android:name=".NaverMapActivity"
             android:exported="false" />
+        <activity
+            android:name=".AdapterViewDemoActivity"
+            android:exported="false" />
+
     </application>
 
 </manifest>
