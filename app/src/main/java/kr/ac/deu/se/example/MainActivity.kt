@@ -17,7 +17,7 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         val recyclerView: RecyclerView = findViewById(R.id.recycler_view)
-        recyclerView.adapter = DemoListAdapter(arrayOf("NaverMap", "AdapterViewDemo"))
+        recyclerView.adapter = DemoListAdapter(arrayOf("NaverMap", "AdapterViewDemo", "CustomListView"))
     }
 
     private class DemoListAdapter(private val dataSet: Array<String>) :
